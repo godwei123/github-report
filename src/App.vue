@@ -66,7 +66,6 @@ const userData = ref({})
 axios.get('https://api.github.com/users/godwei123',{
   headers:{
     'Accept': 'application/vnd.github.v3+json',
-    'Authorization': 'token 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',
   }
 }).then(result=>{
   const {avatar_url,followers,followers_url,login,
