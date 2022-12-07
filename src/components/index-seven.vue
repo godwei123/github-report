@@ -1,16 +1,23 @@
 <template>
   <div class="index-container">
     <img src="../assets/image/done-blank-dark.svg" alt="">
-    <div class="git-line">
-      <div class="pointer pointer-one"></div>
-      <div class="pointer pointer-two"></div>
-    </div>
     <div class="content">
-      <p>2022年10月23日</p>
-      <p>提交了 300 次代码</p>
-      <p>2022年10月23日</p>
-      <p>03：21 还在工作</p>
+      <div class="box box1">
+        <div class="pointer pointer1"></div>
+       <div>
+         <p>2022年10月23日</p>
+         <p>这天你应该很忙，你这天一共提交了 300 次代码</p>
+       </div>
+      </div>
+      <div class="box box2">
+        <div class="pointer pointer2"></div>
+        <div>
+          <p>2022年10月23日</p>
+          <p>这天你 03：21 还在工作</p>
+        </div>
+      </div>
     </div>
+
   </div>
 </template>
 
@@ -30,32 +37,27 @@
   width: 100%;
   object-fit: contain;
 }
-.git-line{
-  position: absolute;
-  height: 70vh;
-  width: 4px;
-  left: 0;
-  top: -10vh;
-  background: #A2CC63;
-  border-radius: 6px;
 
-}
-.git-line .pointer{
-  width: 14px;
-  height: 14px;
+.pointer {
+  width: 1rem;
+  height: 1rem;
   background: #4e7bea;
   border-radius: 50%;
-  position: absolute;
-  left: -5px;
-}
-.git-line .pointer.pointer-one{
-  top: 20%;
-}
-.git-line .pointer.pointer-two{
-  top: 60%;
+  flex: none;
 }
 
-.content{
-  padding: 20px;
+.pointer2 {
+  width: 1rem;
+  height: 1rem;
+  background: #A2CC63;
+  border-radius: 50%;
 }
+
+.box {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin: 3rem 0;
+}
+
 </style>

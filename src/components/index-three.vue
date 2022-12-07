@@ -4,14 +4,14 @@
     <div class="content">
       <p>参与 <span>20</span> 次讨论</p>
       <p>收藏了 <span>16</span> 个仓库</p>
-      <p>following <span>28</span> 个</p>
-      <p>follower <span>6</span> 个</p>
+      <p>following <span>{{ data.following }}</span> 个</p>
+      <p>follower <span>{{ data.followers }}</span> 个</p>
     </div>
   </div>
 </template>
 
 <script setup>
-
+defineProps(['data'])
 </script>
 
 <style scoped>
@@ -27,7 +27,5 @@
   right: 0;
   object-fit: contain;
 }
-.content{
 
-}
 </style>

@@ -27,7 +27,11 @@
   left: -20px;
   bottom: 0;
 }
+.content{
+  padding: 5rem 30px;
+}
 p span{
   color: #AF7AF2;
 }
+
 </style>

@@ -2,8 +2,10 @@
   <div class="index-container">
     <img src="../assets/image/001810.png" alt="">
     <div class="content">
-      <p>2022年使用了 9 种编程语言</p>
-      <p>其中你最喜欢的编程语言是 Java</p>
+      <p>2022年使用了 <br>
+        <span>9</span> 种编程语言</p>
+      <p>其中你最喜欢的编程语言是 <br>
+        <span>Java</span></p>
     </div>
 
   </div>

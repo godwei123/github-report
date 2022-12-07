@@ -1,7 +1,7 @@
 <template>
   <div class="index-container">
-    <img class="image" src="../assets/image/image_6.png" alt="img">
-    <div class="nickname">hello</div>
+    <img class="image" :src="data.avatar_url" alt="img">
+    <div class="nickname">{{ data.login }}</div>
     <div class="info animate__animated animate__backInUp">
       <p>2022年度</p>
       <p>GitHub个人总结</p>
@@ -10,6 +10,12 @@
 </template>
 
 <script setup>
+const props = defineProps({
+  data:{
+    type:Object
+  }
+})
+console.log(props)
 
 </script>
 

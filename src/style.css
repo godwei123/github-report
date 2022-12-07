@@ -1,9 +1,7 @@
 :root {
   font-family: "IBM Plex Mono",Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -21,11 +19,12 @@ html,
 body {
   position: relative;
   height: 100%;
+
+}
+html{
+  font-size: 4.267vw;
 }
 
-body {
-  font-size: 16px;
-}
 
 .swiper {
   width: 100%;
@@ -55,6 +54,7 @@ body {
 .swiper-slide p{
   font-size: 1.5rem;
   color: #FFFFFF;
+  line-height: 2;
 }
 .swiper-slide p span{
   display: inline-block;
@@ -65,4 +65,7 @@ body {
 .index-container{
   height: 100%;
   position: relative;
+}
+.index-container .content{
+  padding: 2rem 30px;
 }
