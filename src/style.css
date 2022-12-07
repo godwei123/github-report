@@ -1,0 +1,68 @@
+:root {
+  font-family: "IBM Plex Mono",Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  background: #24292E;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.swiper-slide p{
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+.swiper-slide p span{
+  display: inline-block;
+  font-size: 2.5rem;
+  line-height: 2;
+}
+
+.index-container{
+  height: 100%;
+  position: relative;
+}
